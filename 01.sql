@@ -1,6 +1,4 @@
--- leetcode   =>  176. Second Highest Salary
+-- leetcode   =>  1757. Recyclable and Low Fat Products
 
 
-select max(salary) as SecondHighestSalary
-from Employee 
-where salary not in (select max(salary) from Employee)
+select product_id from products where low_fats='Y' and recyclable ='Y'
