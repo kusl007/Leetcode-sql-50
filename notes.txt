@@ -1,0 +1,2 @@
+when aggregates functions are used then maxium we use group by in sql
+like count sum max avg min 
