@@ -1,2 +1,15 @@
 when aggregates functions are used then maxium we use group by in sql
-like count sum max avg min 
+like =>count ,sum, max, avg, min 
+
+*********************************************************
+
+There are four main types of JOINs in SQL: INNER JOIN, OUTER JOIN, CROSS JOIN, and SELF JOIN.
+
+*********************************************************
+
+datediff helps to find the difference in dates 
+
+like=>
+datediff (w1.recordDate,w2.recordDate)
+
+*********************************************************
